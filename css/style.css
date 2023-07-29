@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+.index {
+    background-image: url(../img/fondo-index.jpg);
+    background-size: cover;
+    padding-bottom: 40px;
+    padding-top: 112px;
+}
+
+/* NavBar */
+
+.logoNavBar {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.barraNavegacion {
+    background-color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.opciones a {
+    color: #FFFC36;
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.opciones a:hover {
+    background-color: #FFFC36;
+}
+
+.filosofiaOnFit {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.tituloFilosofia {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.listadoFilosofias {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.sucursales {
+    padding-top: 20px;
+    margin-top: 20px;
+    background-image: url(../img/quilmes-sede.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.tituloSucursales {
+    padding-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.listadosSedes {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Koulen', cursive;
+}
+
+.listadosSedes p {
+    font-size: 12px;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.listadosSedes li {
+    list-style: none;
+}
+
+.sedes1 li {
+    padding-bottom: 100px;
+}
+
+.sedes2 li {
+    padding-bottom: 100px;
+}
+
+.sedes3 li {
+    padding-bottom: 100px;
+}
+
+.sedes4 li {
+    padding-bottom: 100px;
+}
+
+.logoItem {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.seccion1Footer p {
+    text-align: left;
+    justify-items: left;
+}
+
+.socialMedia svg {
+    margin-right: 20px;
+}
+
+.socialMedia a {
+    color: white;
+}
+
+.videoAPP {
+    padding-top: 10px;
+    background-image: url(/img/fondo-seccion-app.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frameVideo {
+    margin: 50px;
+}
+
+.textoApp {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    margin: 50px;
+    text-align: right;
+}
+
+.mainGaleriaImagenes {
+    background-image: url(../img/fondo-imagenes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.actividades {
+    background-image: url(/img/clases-fondo.jpg);
+    background-size: cover;
+}
+
+.miniTitulo {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 100px;
+    color: yellow;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+button {
+    font-size: 30px;
+    background-color: yellow;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.boton {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+}
+
+.logoFooter {
+    height: 50px;
+}
+
+footer {
+    background-color: black;
+    border-top: 4px solid yellow;
+    color: aliceblue;
+    padding: 40px;
+}
+
+.infoLegal {
+    list-style: none;
+}
+
+.contacto {
+    list-style: none;
+}
+
+.parrafoActividades {
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    font-size: larger;
+}
+
+.listadoActividades {
+    display: flex;
+    justify-content: space-evenly;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+.actividades1 li {
+    font-size: 30px;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.actividades2 li {
+    font-size: 30px;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.tituloContacto {
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.subtituloContacto {
+    text-align: center;
+    color: white;
+}
+
+.contactoPage {
+    background-image: url(/img/mujer-entrenando.jpg);
+    background-size: 96%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: yellow;
+}
+
+.campos {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.formulario {
+    align-items: center;
+}
+
+.tituloQuienesSomosPage {
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 10%;
+}
+
+.textoQuienesSomos {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+}
+
+.quienesSomosPage {
+    background-image: url(/img/onfit-microcentro2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
