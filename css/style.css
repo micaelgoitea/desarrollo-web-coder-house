@@ -1,14 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .index {
     background-image: url(../img/fondo-index.jpg);
@@ -126,11 +125,6 @@
     margin-left: 0px;
 }
 
-.seccion1Footer p {
-    text-align: left;
-    justify-items: left;
-}
-
 .socialMedia svg {
     margin-right: 20px;
 }
@@ -185,10 +179,10 @@
 }
 
 .titulo {
+    font-family: 'Anton', sans-serif;
     text-align: center;
     font-size: 100px;
     color: yellow;
-    font-family: 'Anton', sans-serif;
     text-shadow: 1px 1px 2px black;
 }
 
