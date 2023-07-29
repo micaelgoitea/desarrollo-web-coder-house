@@ -141,7 +141,7 @@
 
 .videoAPP {
     padding-top: 10px;
-    background-image: url(/img/fondo-seccion-app.jpg);
+    background-image: url(../img/fondo-seccion-app.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
