@@ -45,7 +45,8 @@
     margin-bottom: 40px;
     display: grid;
     place-items: center;
-    font-size: 1.5vw;
+    font-size: 3vw;
+    font-size: 3vh;
 }
 
 .miniTitulo {
@@ -55,13 +56,15 @@
     font-weight: 200px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 2vh;
+    font-size: 2vw;
     text-shadow: 1px 1px 2px black;
 }
 
 .titulo {
     font-family: 'Anton', sans-serif;
     text-align: center;
+    font-size: 7vh;
     font-size: 7vw;
     color: yellow;
     text-shadow: 1px 1px 2px black;
@@ -97,8 +100,6 @@
     background-repeat: no-repeat;
     color: white;
 }
-
-
 
 .listado-sedes {
     color: white;
@@ -151,6 +152,10 @@
     font-size: 20px;
     text-shadow: 1px 1px 2px black;
     text-align: right;
+}
+
+.logo-footer {
+    width: 130px;
 }
 
 .mainGaleriaImagenes {
