@@ -9,13 +9,6 @@
     box-sizing: border-box;
 }
 
-.index {
-    background-image: url(../img/fondo-index.jpg);
-    background-size: cover;
-    padding-bottom: 40px;
-    padding-top: 112px;
-}
-
 /* NavBar */
 
 .logoNavBar {
@@ -44,127 +37,21 @@
     background-color: #FFFC36;
 }
 
-.filosofiaOnFit {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    background-color: yellow;
-    text-align: center;
-}
-
-.tituloFilosofia {
-    margin-top: 10px;
-    font-family: 'Inter', sans-serif;
-}
-
-.listadoFilosofias {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    margin-left: 50px;
-    font-size: 20px;
-}
-
-.sucursales {
-    padding-top: 20px;
-    margin-top: 20px;
-    background-image: url(../img/quilmes-sede.png);
+.main-index {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    background-image: url(../img/fondo-index.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
 }
 
-.tituloSucursales {
-    padding-top: 5px;
+.btn-contactar {
+    margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 40px;
-    text-shadow: 1px 1px 2px black;
-}
-
-.listadosSedes {
-    margin-left: 20px;
-    margin-right: 20px;
-    color: white;
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    text-shadow: 1px 1px 2px black;
-    font-family: 'Koulen', cursive;
-}
-
-.listadosSedes p {
-    font-size: 12px;
-    font-family: 'Kulim Park', sans-serif;
-}
-
-.listadosSedes li {
-    list-style: none;
-}
-
-.sedes1 li {
-    padding-bottom: 100px;
-}
-
-.sedes2 li {
-    padding-bottom: 100px;
-}
-
-.sedes3 li {
-    padding-bottom: 100px;
-}
-
-.sedes4 li {
-    padding-bottom: 100px;
-}
-
-.logoItem {
-    width: 50px;
-    margin-right: 10px;
-    margin-left: 0px;
-}
-
-.socialMedia svg {
-    margin-right: 20px;
-}
-
-.socialMedia a {
-    color: white;
-}
-
-.videoAPP {
-    padding-top: 10px;
-    background-image: url(../img/fondo-seccion-app.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
-}
-
-.frameVideo {
-    margin: 50px;
-}
-
-.textoApp {
-    color: white;
+    display: grid;
+    place-items: center;
     font-size: 20px;
-    text-shadow: 1px 1px 2px black;
-    margin: 50px;
-    text-align: right;
-}
-
-.mainGaleriaImagenes {
-    background-image: url(../img/fondo-imagenes.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.actividades {
-    background-image: url(/img/clases-fondo.jpg);
-    background-size: cover;
 }
 
 .miniTitulo {
@@ -186,6 +73,107 @@
     text-shadow: 1px 1px 2px black;
 }
 
+.section-filosofia-onfit {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+.tituloFilosofia {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.filosofias{
+    text-align: left;
+    font-size: 20px;
+}
+
+.titulo-sucursales {
+    padding-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.sucursales-onfit {
+    background-image: url(../img/quilmes-sede.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+
+.listado-sedes {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Koulen', cursive;
+}
+
+.listado-sedes p {
+    font-size: 12px;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.listado-sedes li {
+    list-style: none;
+    padding-bottom: 100px;
+}
+
+.logoItem {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.social-media svg {
+    margin-right: 20px;
+}
+
+.social-media a {
+    color: white;
+}
+
+.videoAPP {
+    background-image: url(../img/fondo-seccion-app.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frameVideo {
+    margin: 50px;
+}
+
+.textoApp {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    text-align: right;
+}
+
+.mainGaleriaImagenes {
+    background-image: url(../img/fondo-imagenes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.actividades {
+    background-image: url(/img/clases-fondo.jpg);
+    background-size: cover;
+}
+
+
+
 button {
     font-size: 30px;
     background-color: yellow;
@@ -195,13 +183,7 @@ button {
     display: block;
 }
 
-.boton {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: grid;
-    place-items: center;
-    font-size: 20px;
-}
+
 
 .logoFooter {
     height: 50px;
@@ -220,6 +202,11 @@ footer {
 
 .contacto {
     list-style: none;
+    margin-top: 5px;
+}
+
+.contacto li {
+    margin-top: 5px;
 }
 
 .parrafoActividades {
