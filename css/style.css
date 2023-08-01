@@ -137,7 +137,7 @@
 .social-media a {
     color: white;
 }
-
+/*  */
 .videoAPP {
     background-image: url(../img/fondo-seccion-app.jpg);
     background-size: cover;
@@ -146,14 +146,10 @@
     justify-content: space-between;
 }
 
-.textoApp {
-    color: white;
-    font-size: 20px;
-    text-shadow: 1px 1px 2px black;
-    text-align: right;
-}
+
 
 footer {
+    display: grid;
     background-color: black;
     border-top: 4px solid yellow;
     color: aliceblue;
@@ -164,7 +160,60 @@ footer {
     width: 130px;
 }
 
+.footer-1 {
+    grid-area: footer-1;
+
+}
+
+.footer-2 {
+    grid-area: footer-2;
+
+}
+
+.footer-3 {
+    grid-area: footer-3;
+}
+
+.youtube {
+    grid-area: youtube;
+}
+
+.textoApp {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    text-align: right;
+    grid-area: textoApp;
+}
+
+@media (max-width:1199px) {
+    .seccion-video {
+        display: grid;
+        grid-template-areas:
+        "youtube"
+        "textoApp";
+    }
+} 
+
+@media (max-width:570px) {
+
+    .container {
+        display: grid;
+        grid-template-areas: 
+        "footer-1"
+        "footer-2"
+        "footer-3";
+    }
+
+    .row div {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
 .mainGaleriaImagenes {
+    align-items: center;
+    justify-items: center;
     background-image: url(../img/fondo-imagenes.jpg);
     background-size: cover;
     background-repeat: no-repeat;
