@@ -110,6 +110,7 @@
     text-align: left;
     text-shadow: 1px 1px 2px black;
     font-family: 'Koulen', cursive;
+    grid-area: listado-sedes;
 }
 
 .listado-sedes p {
@@ -120,6 +121,22 @@
 .listado-sedes li {
     list-style: none;
     padding-bottom: 100px;
+}
+
+.listado-1 {
+    grid-area: listado-1;
+}
+
+.listado-2 {
+    grid-area: listado-2;
+}
+
+.listado-3 {
+    grid-area: listado-3;
+}
+
+.listado-4 {
+    grid-area: listado-4;
 }
 
 .logoItem {
@@ -239,6 +256,29 @@ footer {
         display: block;
         font-size: 20px;
         align-items: center;
+    }
+
+    .listado-sedes {
+        display: grid;
+        grid-template-areas:
+        "listado-1"
+        "listado-2"
+        "listado-3"
+        "listado-4";
+    }
+
+    .listado-sedes {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .listado-sedes p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .titulo-sucursales {
+        text-align: center;
     }
 
     .textoApp {
