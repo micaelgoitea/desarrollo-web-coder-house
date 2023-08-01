@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
 /* NavBar */
 
@@ -154,6 +156,13 @@
     text-align: right;
 }
 
+footer {
+    background-color: black;
+    border-top: 4px solid yellow;
+    color: aliceblue;
+    padding: 40px;
+}
+
 .logo-footer {
     width: 130px;
 }
@@ -164,35 +173,6 @@
     background-repeat: no-repeat;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.actividades {
-    background-image: url(/img/clases-fondo.jpg);
-    background-size: cover;
-}
-
-
-
-button {
-    font-size: 30px;
-    background-color: yellow;
-    cursor: pointer;
-    margin: 0 auto;
-    margin-bottom: 40px;
-    display: block;
-}
-
-
-
-.logoFooter {
-    height: 50px;
-}
-
-footer {
-    background-color: black;
-    border-top: 4px solid yellow;
-    color: aliceblue;
-    padding: 40px;
 }
 
 .infoLegal {
@@ -208,33 +188,37 @@ footer {
     margin-top: 5px;
 }
 
+.main-actividades {
+    background-image: url(../img/clases-fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lista-actividades {
+    color: yellow;
+    margin-top: 10rem;
+    list-style: none;
+}
+
+.lista-actividades ul{
+    list-style: none;
+    font-size: 2vh;
+    font-size: 2vw;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #353533;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lista-actividades li {
+    margin-top: 20px;
+}
+
 .parrafoActividades {
-    text-align: center;
-    color: yellow;
-    background-color: black;
-    font-size: larger;
-}
-
-.listadoActividades {
-    display: flex;
-    justify-content: space-evenly;
-    color: yellow;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px;
-}
-
-.actividades1 li {
-    font-size: 30px;
-    text-align: left;
-    text-shadow: 1px 1px 2px black;
-
-}
-
-.actividades2 li {
-    font-size: 30px;
-    text-align: left;
-    text-shadow: 1px 1px 2px black;
-
+    font-size: 2vh;
+    font-size: 2vw;
+    font-family: 'Tilt Warp', cursive;
 }
 
 .tituloContacto {
