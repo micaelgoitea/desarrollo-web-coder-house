@@ -188,6 +188,8 @@ footer {
 
 @media (max-width:1199px) {
     .seccion-video {
+        align-items: center;
+        justify-items: center;
         display: grid;
         grid-template-areas:
         "youtube"
