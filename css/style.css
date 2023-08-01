@@ -195,7 +195,7 @@ footer {
     }
 } 
 
-@media (max-width:570px) {
+@media (max-width:445px) {
 
     .container {
         display: grid;
@@ -205,9 +205,13 @@ footer {
         "footer-3";
     }
 
-    .row div {
+    .row-footer div {
         text-align: center;
         margin-top: 40px;
+    }
+
+    .card {
+        width: 20rem;
     }
 }
 
