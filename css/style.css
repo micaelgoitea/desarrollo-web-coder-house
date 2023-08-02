@@ -268,12 +268,18 @@ footer {
     color: white;
 }
 
-.contactoPage {
+.contacto-page {
     background-image: url(/img/mujer-entrenando.jpg);
-    background-size: 96%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-form {
+.main-contacto {
+    padding-top: 100px;
+
+}
+
+.form-contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -411,4 +417,8 @@ label {
         "logo-2"
         "actividades-3";
     }
+    .carrousel-quienes-somos{
+        font-size: 15px;
+        text-shadow: 1px 1px 2px black;
+     }
 }
