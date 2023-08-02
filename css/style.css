@@ -269,7 +269,7 @@ footer {
 }
 
 .contacto-page {
-    background-image: url(/img/mujer-entrenando.jpg);
+    background-image: url(../img/mujer-entrenando.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
