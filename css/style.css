@@ -334,18 +334,16 @@ label {
     font-size: 30px;
 }
 
-.carrousel-quienes-somos{
-   font-size: 20px;
-   margin-bottom: 50px;
-   text-shadow: 1px 1px 2px black;
+.carrousel-quienes-somos {
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 2px black;
 }
 
-.img-carrousel{
+.img-carrousel {
     height: 500px;
     object-fit: cover;
 }
-
-
 
 @media (max-width:1199px) {
     .seccion-video {
@@ -411,15 +409,17 @@ label {
         text-align: center;
         grid-area: textoApp;
     }
+
     .actividades-onfit {
         display: grid;
         grid-template-areas:
-        "actividades-1"
-        "logo-2"
-        "actividades-3";
+            "actividades-1"
+            "logo-2"
+            "actividades-3";
     }
-    .carrousel-quienes-somos{
+
+    .carrousel-quienes-somos {
         font-size: 15px;
         text-shadow: 1px 1px 2px black;
-     }
+    }
 }
