@@ -139,6 +139,7 @@
 /*  */
 .videoAPP {
     background-image: url(../img/fondo-seccion-app.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -188,7 +189,8 @@ footer {
 .mainGaleriaImagenes {
     align-items: center;
     justify-items: center;
-    background-image: url(../img/fondo-imagenes.jpg);
+    background-image: url(../img/onfit-corrientes2.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 30px;
@@ -210,6 +212,7 @@ footer {
 
 .main-actividades {
     background-image: url(../img/clases-fondo.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -238,6 +241,7 @@ footer {
 .parrafoActividades {
     font-size: 20px;
     font-family: 'Tilt Warp', cursive;
+    text-shadow: 1px 1px 2px black;
 }
 
 .actividades-1 {
@@ -270,6 +274,7 @@ footer {
 
 .contacto-page {
     background-image: url(../img/mujer-entrenando.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -285,6 +290,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    text-shadow: 1px 1px 2px black;
 }
 
 label {
@@ -408,6 +414,10 @@ label {
         text-shadow: 1px 1px 2px black;
         text-align: center;
         grid-area: textoApp;
+    }
+
+    .intro-contacto {
+        color: #ccc;
     }
 
     .actividades-onfit {
