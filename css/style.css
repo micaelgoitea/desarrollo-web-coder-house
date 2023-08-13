@@ -379,6 +379,9 @@ label {
   background-color: yellow;
   height: 40rem;
 }
+.contacto-info p {
+  font-size: 20px;
+}
 
 .opciones-contacto {
   margin: 0;
