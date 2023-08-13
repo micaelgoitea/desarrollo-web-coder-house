@@ -330,11 +330,16 @@ label {
     justify-content: center;
     text-align: center;
     background-color: grey;
+
+    h2 {
+        padding-top: 30px;
+    }
 }
 
 .contacto-info {
     background-color: yellow;
-    height: 40rem;
+    height: 30rem;
+    margin-bottom: 20px;
 
     p {
         font-size: 20px;
