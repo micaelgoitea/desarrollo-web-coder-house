@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+/* NavBar */
+
+.logoNavBar {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.barraNavegacion {
+    background-color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.opciones a {
+    color: #FFFC36;
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.opciones a:hover {
+    background-color: #FFFC36;
+}
+
+.main-index {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    background-image: url(../img/fondo-index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-contactar {
+    margin: 0 auto;
+    display: block;
+    font-size: 3vw;
+    font-size: 3vh;
+    align-items: center;
+}
+
+.miniTitulo {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2vh;
+    font-size: 2vw;
+    text-shadow: 1px 1px 2px black;
+}
+
+.titulo {
+    margin-bottom: 4rem;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 108px;
+    color: yellow;
+    text-shadow: 1px 1px 2px black;
+}
+
+.section-filosofia-onfit {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+.tituloFilosofia {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.filosofias {
+    text-align: left;
+    font-size: 20px;
+}
+
+.titulo-sucursales {
+    padding-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.sucursales-onfit {
+    background-image: url(../img/quilmes-sede.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.listado-sedes {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Koulen', cursive;
+}
+
+.listado-sedes p {
+    font-size: 12px;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.listado-sedes li {
+    list-style: none;
+    padding-bottom: 100px;
+}
+
+.logoItem {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.social-media svg {
+    margin-right: 20px;
+}
+
+.social-media a {
+    color: white;
+}
+
+/*  */
+.videoAPP {
+    background-image: url(../img/fondo-seccion-app.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer {
+    display: grid;
+    background-color: black;
+    border-top: 4px solid yellow;
+    color: aliceblue;
+    padding: 40px;
+}
+
+.logo-footer {
+    width: 130px;
+}
+
+.footer-1 {
+    grid-area: footer-1;
+
+}
+
+.footer-2 {
+    grid-area: footer-2;
+
+}
+
+.footer-3 {
+    grid-area: footer-3;
+}
+
+.youtube {
+    grid-area: youtube;
+}
+
+.textoApp {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    text-align: right;
+    grid-area: textoApp;
+}
+
+.mainGaleriaImagenes {
+    align-items: center;
+    justify-items: center;
+    background-image: url(../img/onfit-corrientes2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.infoLegal {
+    list-style: none;
+}
+
+.contacto {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.contacto li {
+    margin-top: 5px;
+}
+
+.main-actividades {
+    background-image: url(../img/clases-fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lista-actividades {
+    color: yellow;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    list-style: none;
+}
+
+.lista-actividades ul {
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #353533;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lista-actividades li {
+    margin-top: 20px;
+}
+
+.parrafoActividades {
+    font-size: 20px;
+    font-family: 'Tilt Warp', cursive;
+    text-shadow: 1px 1px 2px black;
+}
+
+.actividades-1 {
+    grid-area: actividades-1;
+
+}
+
+.logo-2 {
+    grid-area: logo-2;
+
+}
+
+.actividades-3 {
+    grid-area: actividades-3;
+
+}
+
+.tituloContacto {
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.subtituloContacto {
+    text-align: center;
+    color: white;
+}
+
+.contacto-page {
+    background-image: url(../img/mujer-entrenando.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-contacto {
+    padding-top: 100px;
+
+}
+
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: yellow;
+}
+
+.campos {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.formulario {
+    align-items: center;
+}
+
+
+.main-quienes-somos {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.titulo-quienes-somos {
+    color: #FFFC36;
+    font-size: 30px;
+}
+
+.carrousel-quienes-somos {
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.img-carrousel {
+    height: 500px;
+    object-fit: cover;
+}
+
+@media (max-width:1199px) {
+    .seccion-video {
+        align-items: center;
+        justify-items: center;
+        display: grid;
+        grid-template-areas:
+            "youtube"
+            "textoApp";
+    }
+}
+
+@media (max-width:1000px) {
+
+    .container {
+        display: grid;
+        grid-template-areas:
+            "footer-1"
+            "footer-2"
+            "footer-3";
+    }
+
+    .row-footer div {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .card {
+        width: 20rem;
+    }
+
+    .miniTitulo {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        color: white;
+        font-weight: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .titulo {
+        margin-bottom: 4rem;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+        font-size: 65px;
+        color: yellow;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .btn-contactar {
+        margin: 0 auto;
+        display: block;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .textoApp {
+        color: white;
+        font-size: 20px;
+        text-shadow: 1px 1px 2px black;
+        text-align: center;
+        grid-area: textoApp;
+    }
+
+    .intro-contacto {
+        color: #ccc;
+    }
+
+    .actividades-onfit {
+        display: grid;
+        grid-template-areas:
+            "actividades-1"
+            "logo-2"
+            "actividades-3";
+    }
+
+    .carrousel-quienes-somos {
+        font-size: 15px;
+        text-shadow: 1px 1px 2px black;
+    }
+}

@@ -1,0 +1,27 @@
+.logoNavBar {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.barraNavegacion {
+    background-color: $color-background;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $color-background;
+}
+
+.opciones a {
+    color: $color-primary;
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.opciones a:hover {
+    background-color: $color-primary;
+    color: $color-background;
+}
