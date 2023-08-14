@@ -21,15 +21,15 @@
     font-family: 'Koulen', cursive;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 5fr);
+    grid-template-columns:repeat(3, 1fr);
+
+    li {
+        margin-top: 20px;
+    }
 
     p {
         font-size: 12px;
         font-family: 'Kulim Park', sans-serif;
-    }
-
-    li {
-        margin-top: 20px;
     }
 
     .logoItem {

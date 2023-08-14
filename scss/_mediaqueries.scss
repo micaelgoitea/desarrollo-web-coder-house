@@ -1,4 +1,7 @@
-@media (max-width:992px) {
+@media (max-width:1000px) {
+    .lista-filosofias {
+        flex-direction: column;
+    }
     .seccion-video {
         align-items: center;
         justify-items: center;
@@ -8,14 +11,6 @@
             "textoApp";
     }
 
-    .lista-filosofias {
-        margin-top: 40px;
-        text-align: left;
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        font-size: 20px;
-    }
-
     .lista-sedes {
         color: white;
         font-size: 30px;
@@ -23,15 +18,17 @@
         font-family: 'Koulen', cursive;
         list-style: none;
         display: grid;
-        grid-template-columns: repeat(2, 5fr);
-
+        grid-template-columns:repeat(2, 1fr);
+    
         p {
             font-size: 12px;
             font-family: 'Kulim Park', sans-serif;
         }
-
-        li {
-            margin-top: 20px;
+    
+        .logoItem {
+            width: 50px;
+            margin-right: 10px;
+            margin-left: 0px;
         }
     }
 
@@ -58,9 +55,6 @@
             justify-content: center;
         }
     }
-}
-
-@media (max-width:1000px) {
 
     .container {
         display: grid;
@@ -146,5 +140,28 @@
     .logo-quienes-somos {
         padding-bottom: 10rem;
         width: auto;
+    }
+}
+
+@media (max-width:550px) {
+    .lista-sedes {
+        color: white;
+        font-size: 30px;
+        text-shadow: 1px 1px 2px black;
+        font-family: 'Koulen', cursive;
+        list-style: none;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+    
+        p {
+            font-size: 12px;
+            font-family: 'Kulim Park', sans-serif;
+        }
+    
+        .logoItem {
+            width: 50px;
+            margin-right: 10px;
+            margin-left: 0px;
+        }
     }
 }
