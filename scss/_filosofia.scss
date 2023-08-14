@@ -1,0 +1,21 @@
+/* Sección Filosofia*/
+
+.section-filosofia-onfit {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: yellow;
+
+    .tituloFilosofia {
+        margin-top: 10px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .lista-filosofias {
+        margin-top: 40px;
+        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 20px;
+    }
+}

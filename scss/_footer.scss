@@ -1,0 +1,58 @@
+footer {
+    display: grid;
+    background-color: black;
+    border-top: 4px solid yellow;
+    color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo-footer {
+    width: 130px;
+}
+
+.footer-1 {
+    grid-area: footer-1;
+    padding: 0;
+
+}
+
+.footer-2 {
+    grid-area: footer-2;
+    padding: 0;
+
+}
+
+.footer-3 {
+    grid-area: footer-3;
+    padding: 0;
+}
+
+.youtube {
+    grid-area: youtube;
+}
+
+.infoLegal {
+    list-style: none;
+}
+
+.contacto {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.contacto li {
+    margin-top: 5px;
+}
+
+.social-media {
+    svg {
+        margin-right: 20px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+}

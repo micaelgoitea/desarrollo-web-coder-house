@@ -66,7 +66,6 @@
   text-shadow: 1px 1px 2px black;
 }
 
-/* Pagina web Principal*/
 /* Sección Filosofia*/
 .section-filosofia-onfit {
   padding-top: 20px;
@@ -74,13 +73,11 @@
   margin-top: 20px;
   background-color: yellow;
 }
-
-.tituloFilosofia {
+.section-filosofia-onfit .tituloFilosofia {
   margin-top: 10px;
   font-family: "Inter", sans-serif;
 }
-
-.lista-filosofias {
+.section-filosofia-onfit .lista-filosofias {
   margin-top: 40px;
   text-align: left;
   display: grid;
@@ -89,18 +86,17 @@
 }
 
 /* Sección Sucursales */
-.titulo-sucursales {
-  padding-top: 5px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  text-shadow: 1px 1px 2px black;
-}
-
 .sucursales-onfit {
   background-image: url(../img/quilmes-sede.png);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+}
+.sucursales-onfit .titulo-sucursales {
+  padding-top: 5px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  text-shadow: 1px 1px 2px black;
 }
 
 .lista-sedes {
@@ -119,20 +115,10 @@
 .lista-sedes li {
   margin-top: 20px;
 }
-
-.logoItem {
+.lista-sedes .logoItem {
   width: 50px;
   margin-right: 10px;
   margin-left: 0px;
-}
-
-.social-media svg {
-  margin-right: 20px;
-}
-.social-media a {
-  color: white;
-  text-decoration: none;
-  margin-right: 1rem;
 }
 
 /* Seccion Video APP */
@@ -143,6 +129,15 @@
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
+}
+
+.textoApp {
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black;
+  text-align: right;
+  grid-area: textoApp;
 }
 
 footer {
@@ -177,26 +172,6 @@ footer {
   grid-area: youtube;
 }
 
-.textoApp {
-  margin-top: 40px;
-  color: white;
-  font-size: 20px;
-  text-shadow: 1px 1px 2px black;
-  text-align: right;
-  grid-area: textoApp;
-}
-
-.mainGaleriaImagenes {
-  align-items: center;
-  justify-items: center;
-  background-image: url(../img/onfit-corrientes2.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .infoLegal {
   list-style: none;
 }
@@ -210,14 +185,33 @@ footer {
   margin-top: 5px;
 }
 
+.social-media svg {
+  margin-right: 20px;
+}
+.social-media a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.mainGaleriaImagenes {
+  align-items: center;
+  justify-items: center;
+  background-image: url(../img/fondo-imagenes.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .main-actividades {
   background-image: url(../img/clases-fondo.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.lista-actividades {
+.main-actividades .lista-actividades {
   padding: 4rem;
   padding-top: 1rem;
   color: yellow;
@@ -225,7 +219,7 @@ footer {
   margin-bottom: 10rem;
   list-style: none;
 }
-.lista-actividades ul {
+.main-actividades .lista-actividades ul {
   padding: 0;
   list-style: none;
   font-size: 30px;
@@ -235,11 +229,10 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.lista-actividades li {
+.main-actividades .lista-actividades li {
   margin-top: 20px;
 }
-
-.parrafoActividades {
+.main-actividades .lista-actividades .parrafoActividades {
   font-size: 20px;
   font-family: "Tilt Warp", cursive;
   text-shadow: 1px 1px 2px black;
@@ -260,64 +253,6 @@ footer {
   padding: 0;
 }
 
-.tituloContacto {
-  text-align: center;
-  color: yellow;
-  font-size: 50px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  text-shadow: 1px 1px 2px black;
-}
-
-.subtituloContacto {
-  text-align: center;
-  color: white;
-}
-
-.form-contacto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  text-shadow: 1px 1px 2px black;
-}
-
-label {
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: yellow;
-}
-
-.campos {
-  display: flex;
-  align-items: center;
-  width: 50%;
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.btnFormulario {
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-
-.formulario {
-  align-items: center;
-}
-
 .main-quienes-somos {
   padding-top: 15rem;
   padding-bottom: 15rem;
@@ -329,11 +264,6 @@ label {
 .logo-quienes-somos {
   padding-left: 10rem;
   padding-right: 6rem;
-}
-
-.titulo-quienes-somos {
-  color: #FFFC36;
-  font-size: 30px;
 }
 
 .carrousel-quienes-somos {
@@ -360,12 +290,26 @@ label {
   padding-bottom: 2rem;
   text-align: center;
 }
-.intro-contacto h1 {
+.intro-contacto .tituloContacto {
+  text-align: center;
+  color: yellow;
   font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 1px 1px 2px black;
+}
+.intro-contacto .subtituloContacto {
+  text-align: center;
+  color: white;
 }
 .intro-contacto .flecha-contacto {
   width: 4rem;
   padding-top: 1rem;
+}
+
+.opciones-contacto {
+  margin: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .contacto-formulario {
@@ -378,21 +322,6 @@ label {
   padding-top: 30px;
 }
 
-.contacto-info {
-  background-color: yellow;
-  height: 30rem;
-  margin-bottom: 20px;
-}
-.contacto-info p {
-  font-size: 20px;
-}
-
-.opciones-contacto {
-  margin: 0;
-  align-items: center;
-  justify-content: center;
-}
-
 .form-contacto {
   display: flex;
   flex-direction: column;
@@ -400,6 +329,15 @@ label {
   align-items: center;
   margin-top: 20px;
   text-shadow: 1px 1px 2px black;
+}
+
+.contacto-info {
+  background-color: yellow;
+  height: 30rem;
+  margin-bottom: 20px;
+}
+.contacto-info p {
+  font-size: 20px;
 }
 
 @media (max-width: 992px) {

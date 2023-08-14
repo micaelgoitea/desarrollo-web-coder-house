@@ -1,0 +1,40 @@
+/* Sección Sucursales */
+
+.sucursales-onfit {
+    background-image: url(../img/quilmes-sede.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    .titulo-sucursales {
+        padding-top: 5px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        text-shadow: 1px 1px 2px black;
+    }
+}
+
+.lista-sedes {
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Koulen', cursive;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+
+    p {
+        font-size: 12px;
+        font-family: 'Kulim Park', sans-serif;
+    }
+
+    li {
+        margin-top: 20px;
+    }
+
+    .logoItem {
+        width: 50px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+}
