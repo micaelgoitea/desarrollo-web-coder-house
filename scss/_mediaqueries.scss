@@ -1,7 +1,25 @@
 @media (max-width:1000px) {
-    .lista-filosofias {
-        flex-direction: column;
+
+    .section-filosofia-onfit {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        background-color: yellow;
+    
+        .tituloFilosofia {
+            margin-top: 10px;
+            font-family: 'Inter', sans-serif;
+        }
+    
+        .lista-filosofias {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 40px;
+            text-align: left;
+            font-size: 20px;
+        }
     }
+
     .seccion-video {
         align-items: center;
         justify-items: center;
@@ -109,15 +127,6 @@
         grid-area: textoApp;
     }
 
-    .actividades-onfit {
-        display: grid;
-        padding: 4rem;
-        grid-template-areas:
-            "actividades-1"
-            "logo-2"
-            "actividades-3";
-    }
-
     .carrousel-quienes-somos {
         font-size: 15px;
         text-shadow: 1px 1px 2px black;
@@ -141,6 +150,14 @@
         padding-bottom: 10rem;
         width: auto;
     }
+
+    .actividades-onfit {
+        display: grid;
+        grid-template-areas:
+            "actividades-1"
+            "logo-2"
+            "actividades-3";
+    }
 }
 
 @media (max-width:550px) {
@@ -162,6 +179,26 @@
             width: 50px;
             margin-right: 10px;
             margin-left: 0px;
+        }
+    }
+
+    .section-filosofia-onfit {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        background-color: yellow;
+    
+        .tituloFilosofia {
+            margin-top: 10px;
+            font-family: 'Inter', sans-serif;
+        }
+    
+        .lista-filosofias {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin-top: 40px;
+            text-align: left;
+            font-size: 20px;
         }
     }
 }
