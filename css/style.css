@@ -5,10 +5,6 @@
   margin-left: 20px;
 }
 
-.barraNavegacion {
-  background-color: black;
-}
-
 .sticky {
   position: fixed;
   top: 0;
@@ -21,11 +17,13 @@
   font-size: 20px;
   margin-right: 30px;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 .opciones a:hover {
   background-color: #FFFC36;
   color: black;
+  border-radius: 5px;
 }
 
 .main-index {
@@ -106,9 +104,7 @@
 .lista-sedes {
   color: white;
   font-size: 30px;
-  text-shadow: 1px 1px 2px black;
   font-family: "Koulen", cursive;
-  list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -220,11 +216,9 @@ footer {
   color: yellow;
   margin-top: 10rem;
   margin-bottom: 10rem;
-  list-style: none;
 }
 .main-actividades .lista-actividades ul {
   padding: 0;
-  list-style: none;
   font-size: 30px;
   font-family: "Anton", sans-serif;
   font-family: "Varela Round", sans-serif;
@@ -507,6 +501,20 @@ footer {
     text-align: left;
     font-size: 20px;
   }
+}
+.lista-sedes {
+  list-style: none;
+  text-shadow: 1px 1px 2px black;
+}
+
+.lista-actividades ul {
+  list-style: none;
+  text-shadow: 1px 1px 2px black;
+}
+
+.social-media a {
+  text-decoration: none;
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

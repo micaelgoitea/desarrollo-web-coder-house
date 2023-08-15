@@ -3,10 +3,6 @@
     margin-left: 20px;
 }
 
-.barraNavegacion {
-    background-color: $color-background;
-}
-
 .sticky {
     position: fixed;
     top: 0;
@@ -19,9 +15,12 @@
     font-size: 20px;
     margin-right: 30px;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .opciones a:hover {
     background-color: $color-primary;
     color: $color-background;
+    border-radius: 5px;
 }
+
