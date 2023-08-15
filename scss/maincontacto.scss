@@ -30,6 +30,8 @@
     margin: 0;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to bottom, #FEFD95, white);
+    padding: 0;
 }
 
 .contacto-formulario {
@@ -37,6 +39,7 @@
     justify-content: center;
     text-align: center;
     background-color: grey;
+    padding: 0;
 
     h2 {
         padding-top: 30px;

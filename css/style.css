@@ -253,6 +253,7 @@ footer {
 .main-quienes-somos {
   padding-top: 15rem;
   padding-bottom: 15rem;
+  background: linear-gradient(to bottom right, white, yellow);
 }
 .main-quienes-somos p {
   font-size: 20px;
@@ -307,6 +308,8 @@ footer {
   margin: 0;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(to bottom, #FEFD95, white);
+  padding: 0;
 }
 
 .contacto-formulario {
@@ -314,6 +317,7 @@ footer {
   justify-content: center;
   text-align: center;
   background-color: grey;
+  padding: 0;
 }
 .contacto-formulario h2 {
   padding-top: 30px;
