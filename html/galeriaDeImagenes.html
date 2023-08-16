@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="shortcut icon" href="../img/favicon-onfit.png" type="image/x-icon">
@@ -13,7 +14,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark barraNavegacion sticky">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img class="logoNavBar" src="../img/logo-header-footer.png" alt="Logo On Fit"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -38,7 +39,7 @@
       <div class="row align-items-center">
 
         <div class="col">
-          <div class="card mt-4" style="width: 24rem">
+          <div data-aos="flip-left" class="card mt-4" style="width: 24rem">
             <div id="carouselExampleIndicators" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -85,7 +86,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card mt-4" style="width: 24rem">
+          <div data-aos="flip-left" class="card mt-4" style="width: 24rem">
             <div id="carouselExampleIndicators2" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
@@ -132,7 +133,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card mt-4" style="width: 24rem">
+          <div data-aos="flip-left" class="card mt-4" style="width: 24rem">
             <div id="carouselExampleIndicators3" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
@@ -179,7 +180,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card mt-4" style="width: 24rem">
+          <div data-aos="flip-left" class="card mt-4" style="width: 24rem">
             <div id="carouselExampleIndicators4" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active"
@@ -227,7 +228,7 @@
         </div>
 
         <div class="col">
-          <div class="card mt-4" style="width: 24rem">
+          <div data-aos="flip-left" class="card mt-4" style="width: 24rem">
             <div id="carouselExampleIndicators5" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active"
@@ -275,7 +276,7 @@
         </div>
 
         <div class="col">
-          <div class="card mt-4" style="width: 24rem">
+          <div data-aos="flip-left" class="card mt-4" style="width: 24rem">
             <div id="carouselExampleIndicators6" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active"
@@ -323,7 +324,7 @@
         </div>
 
         <div class="col">
-          <div class="card mt-4" style="width: 24rem">
+          <div data-aos="flip-left" class="card mt-4" style="width: 24rem">
             <div id="carouselExampleIndicators7" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0" class="active"
@@ -371,7 +372,7 @@
         </div>
 
         <div class="col">
-          <div class="card mt-4" style="width: 24rem">
+          <div data-aos="flip-left" class="card mt-4" style="width: 24rem">
             <div id="carouselExampleIndicators8" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="0" class="active"
@@ -419,7 +420,7 @@
         </div>
 
         <div class="col">
-          <div class="card mt-4" style="width: 24rem">
+          <div data-aos="flip-left" class="card mt-4" style="width: 24rem">
             <div id="carouselExampleIndicators9" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="0" class="active"
@@ -503,6 +504,12 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
