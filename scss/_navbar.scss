@@ -20,13 +20,13 @@
     margin-right: 30px;
     font-weight: bold;
     border-radius: 5px;
-    transition: all 0.5s;
+    transition: all 1s;
 }
 
 .opciones a:hover {
     background-color: $color-primary;
     color: $color-background;
     border-radius: 5px;
-    font-size: 22px;
+    font-size: 30px;
 }
 
