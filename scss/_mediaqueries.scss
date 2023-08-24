@@ -74,17 +74,20 @@
         }
     }
 
-    .container {
+    .row-footer {
         display: grid;
         grid-template-areas:
             "footer-1"
             "footer-2"
             "footer-3";
+        max-width: 1400px;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .row-footer div {
         text-align: center;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .card {
@@ -161,6 +164,17 @@
 }
 
 @media (max-width:550px) {
+
+    .row-footer {
+        display: grid;
+        grid-template-areas:
+            "footer-1"
+            "footer-2"
+            "footer-3";
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
     .lista-sedes {
         color: white;
         font-size: 30px;

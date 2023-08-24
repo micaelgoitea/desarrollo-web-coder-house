@@ -18,18 +18,25 @@
 
 .opciones a {
   color: #FFFC36;
-  font-size: 20px;
-  margin-right: 30px;
+  font-size: 18px;
+  margin-right: 20px;
   font-weight: bold;
   border-radius: 5px;
   transition: all 1s;
+  text-align: right;
 }
 
 .opciones a:hover {
   background-color: #FFFC36;
   color: black;
   border-radius: 5px;
-  font-size: 30px;
+  font-size: 20px;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
 }
 
 .main-index {
@@ -131,7 +138,6 @@
 .lista-sedes .logoItem {
   width: 50px;
   margin-right: 10px;
-  margin-left: 0px;
 }
 
 /* Seccion Video APP */
@@ -253,6 +259,7 @@ footer {
   font-size: 20px;
   font-family: "Tilt Warp", cursive;
   text-shadow: 1px 1px 2px black;
+  color: yellow;
 }
 
 .actividades-1 {
@@ -419,13 +426,16 @@ footer {
   .main-quienes-somos div {
     justify-content: center;
   }
-  .container {
+  .row-footer {
     display: grid;
     grid-template-areas: "footer-1" "footer-2" "footer-3";
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
   }
   .row-footer div {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .card {
     width: 20rem;
@@ -487,6 +497,12 @@ footer {
   }
 }
 @media (max-width: 550px) {
+  .row-footer {
+    display: grid;
+    grid-template-areas: "footer-1" "footer-2" "footer-3";
+    max-width: 1400px;
+    margin: 0 auto;
+  }
   .lista-sedes {
     color: white;
     font-size: 30px;
