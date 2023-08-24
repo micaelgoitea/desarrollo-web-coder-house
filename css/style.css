@@ -50,8 +50,6 @@
 }
 
 .miniTitulo {
-  margin-top: 30px;
-  margin-bottom: 40px;
   color: white;
   font-weight: 200px;
   font-family: Arial, Helvetica, sans-serif;
@@ -59,15 +57,22 @@
   font-size: 2vh;
   font-size: 2vw;
   text-shadow: 1px 1px 2px black;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .titulo {
   margin-bottom: 1rem;
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
-  font-size: 120px;
+  font-size: 110px;
   color: yellow;
   text-shadow: 1px 1px 2px black;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 
 /* Sección Filosofia*/
@@ -83,7 +88,7 @@
 }
 .section-filosofia-onfit .lista-filosofias {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, auto);
   margin-top: 40px;
   text-align: left;
   font-size: 20px;
@@ -105,14 +110,15 @@
   margin-bottom: 40px;
   margin-left: 40px;
   text-shadow: 1px 1px 2px black;
+  max-width: 1200px;
 }
 
 .lista-sedes {
-  color: white;
-  font-size: 30px;
   font-family: "Koulen", cursive;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, auto);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .lista-sedes li {
   margin-top: 20px;
@@ -139,7 +145,7 @@
 .textoApp {
   margin-top: 50px;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-shadow: 1px 1px 2px black;
   text-align: right;
   grid-area: textoApp;
@@ -147,6 +153,11 @@
 
 .youtube {
   grid-area: youtube;
+}
+
+.seccion-video {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 footer {
@@ -210,6 +221,10 @@ footer {
   padding-bottom: 30px;
 }
 
+.tarjetas-imagenes {
+  width: auto;
+}
+
 .main-actividades {
   background-image: url(../img/clases-fondo.jpg);
   background-position: center;
@@ -219,13 +234,11 @@ footer {
 .main-actividades .lista-actividades {
   padding: 4rem;
   padding-top: 1rem;
-  color: yellow;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
 .main-actividades .lista-actividades ul {
   padding: 0;
-  font-size: 30px;
   font-family: "Anton", sans-serif;
   font-family: "Varela Round", sans-serif;
   background-color: #353533;
@@ -279,10 +292,6 @@ footer {
 .img-carrousel {
   height: 500px;
   object-fit: cover;
-}
-
-.card {
-  margin: auto;
 }
 
 .intro-contacto {
@@ -516,16 +525,24 @@ footer {
 .lista-sedes {
   list-style: none;
   text-shadow: 1px 1px 2px black;
+  color: white;
+  font-size: 30px;
 }
 
 .lista-actividades ul {
   list-style: none;
   text-shadow: 1px 1px 2px black;
+  color: yellow;
+  font-size: 30px;
 }
 
 .social-media a {
   text-decoration: none;
   margin-right: 1rem;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

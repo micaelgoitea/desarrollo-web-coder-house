@@ -11,13 +11,16 @@
         margin-bottom: 40px;
         margin-left: 40px;
         text-shadow: 1px 1px 2px black;
+        max-width: 1200px;
     }
 }
 
 .lista-sedes {
     font-family: 'Koulen', cursive;
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns:repeat(3, auto);
+    max-width: 1200px;
+    margin: 0 auto;
 
     li {
         margin-top: 20px;

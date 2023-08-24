@@ -11,7 +11,7 @@
 .textoApp {
     margin-top: 50px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-shadow: 1px 1px 2px black;
     text-align: right;
     grid-area: textoApp;
@@ -19,4 +19,9 @@
 
 .youtube {
     grid-area: youtube;
+}
+
+.seccion-video {
+    max-width: 1200px;
+    margin: 0 auto;
 }
