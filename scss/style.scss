@@ -12,3 +12,7 @@
 @import "maincontacto";
 @import "mediaqueries";
 @import "mixin";
+
+html, body {
+    overflow-x: hidden;
+}
