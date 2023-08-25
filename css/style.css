@@ -396,6 +396,8 @@ footer {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
   }
   .lista-sedes p {
     font-size: 12px;
@@ -403,8 +405,6 @@ footer {
   }
   .lista-sedes .logoItem {
     width: 50px;
-    margin-right: 10px;
-    margin-left: 0px;
   }
   .main-quienes-somos {
     justify-content: center;
