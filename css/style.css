@@ -123,6 +123,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 40px;
+  padding-left: 0;
 }
 .lista-sedes li {
   margin-top: 20px;
@@ -216,12 +217,17 @@ footer {
 .mainGaleriaImagenes {
   align-items: center;
   justify-items: center;
-  background-image: url(../img/fondo-imagenes.jpg);
+  background-color: #FFFE66;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 100px;
   padding-bottom: 30px;
+}
+.mainGaleriaImagenes .card {
+  width: 28rem;
+  margin: 0 auto;
+  box-shadow: 5px 5px 2px;
 }
 
 .tarjetas-imagenes {
@@ -496,6 +502,21 @@ footer {
   }
 }
 @media (max-width: 550px) {
+  .mainGaleriaImagenes {
+    align-items: center;
+    justify-items: center;
+    background-color: #FFFE66;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .mainGaleriaImagenes .card {
+    width: 20rem;
+    margin: 0 auto;
+    box-shadow: 5px 5px 2px;
+  }
   .row-footer {
     display: grid;
     grid-template-areas: "footer-1" "footer-2" "footer-3";

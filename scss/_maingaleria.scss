@@ -1,12 +1,18 @@
 .mainGaleriaImagenes {
     align-items: center;
     justify-items: center;
-    background-image: url(../img/fondo-imagenes.jpg);
+    background-color: #FFFE66;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 30px;
+
+    .card {
+        width: 28rem;
+        margin: 0 auto;
+        box-shadow: 5px 5px 2px;
+    }
 }
 
 .tarjetas-imagenes {
