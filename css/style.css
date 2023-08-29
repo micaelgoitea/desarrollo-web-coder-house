@@ -217,7 +217,7 @@ footer {
 .mainGaleriaImagenes {
   align-items: center;
   justify-items: center;
-  background-color: #FCFB99;
+  background-image: url(../img/fondo-imagenes.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -505,7 +505,7 @@ footer {
   .mainGaleriaImagenes {
     align-items: center;
     justify-items: center;
-    background-color: #FCFB99;
+    background-image: url(../img/fondo-imagenes.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
